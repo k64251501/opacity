@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <img src="./img.png.jpg" 
+    id="img" style="width: 50%;"/>
+    <input value="100" type="range"
+    id="slider" min="0" mix="100"/>
+    <script>
+        slider.oninput =changeOpacity;
+        function changeOpacity(){
+            img.style. opacity=this.value/ 100;
+        }
+    </script>
+
+</body>
+</html>

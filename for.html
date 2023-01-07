@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            button{
+                padding: 0 16px;
+                text-align: center;
+                align-items: center;
+                color: green;
+            }
+        </style>
+
+    </head>
+    <body>
+<h1>how to create type write in java script text</h1>
+<button onclick="typewriter()">click me</button>
+<p id="demo"></p>
+<script>
+    let i=0;
+    let text="iam ready to today , iam going school in frist ";
+    let speed = 50;
+    function typewriter(){
+        document.getElementById("demo").innerHTML +=text.charAt(i);
+        i++;
+        setTimeout(typewriter,speed);
+    
+    
+        
+
+    }
+
+    
+</script>
+    
+    </body>
+</html>
